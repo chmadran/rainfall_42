@@ -1,4 +1,4 @@
-# ranfall_42
+# rainfall_42
 
 ![image](https://github.com/chmadran/rainfall_42/assets/113340699/4d25b608-bf98-4fc3-af10-457b4408859e)
 
