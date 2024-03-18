@@ -1,5 +1,6 @@
 # ranfall_42
 
+![image](https://github.com/chmadran/rainfall_42/assets/113340699/c4d7cc4c-5b7d-4b12-9051-c0255c39532e)
 
 
 <h2>PREAMBLE</h2>
