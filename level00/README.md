@@ -48,3 +48,11 @@ The set of commands used is :
 * `continue`
 
 Now TBC : find what needs to be passed as argument to "exploit" a vulnerability in level0 after bypassing the if protection - think about the security brief at the beggining ? 
+
+It seems like you're bascially opening a shell `/bin/dash` : 
+- and if there's setuid on it we'll be able to access the `.pass` file
+- there's a `getuid`, try to get the level1's id and set it to enter the shell as such
+- there's also a `getguid` so try and set both to 2030 ??
+
+
+![image](https://github.com/chmadran/rainfall_42/assets/113340699/faaf995f-81c1-4d1d-b728-486ba89fd492)
