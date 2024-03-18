@@ -73,4 +73,9 @@ Usage: At the beginning of a function call, the current value of ESP (the stack 
 Role: The ECX register is traditionally used as a loop counter in iterative operations, but it can serve various purposes depending on the context. In certain calling conventions, it is also used to pass function arguments.
 Usage: Its role as a counter comes from instructions like loop, which decrements ECX and jumps to a specified label if ECX is not zero. Beyond looping, ECX can be used as a general-purpose register for arithmetic, data manipulation, and as part of function calling conventions where registers are used to pass arguments.</details>
 
+OKSO actually once you have found 423 to bypass atoi, by reading the gdb output (the cmp line) or by just decompiling the binary, then you need to run the executable outside of gdb and whoami? level1... so cd and ls -la into its home, you can cat the pass file...
+
+```1fe8a524fa4bec01ca4ea2a869af2a02260d4a7d5fe7e7c24d8617e6dca12d3a```
+
+
 
