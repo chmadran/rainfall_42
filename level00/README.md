@@ -56,3 +56,21 @@ It seems like you're bascially opening a shell `/bin/dash` :
 
 
 ![image](https://github.com/chmadran/rainfall_42/assets/113340699/faaf995f-81c1-4d1d-b728-486ba89fd492)
+
+
+<h4>ESP, EBP, ECX registers</h4>
+
+<details><summary>ESP (Extended Stack Pointer)</summary>
+  * Role: The ESP register points to the top of the current stack frame. The stack is a special region of memory used for storing local variables, function parameters, return addresses, and managing function calls and returns.
+  * Usage: In assembly and C calling conventions, ESP is automatically modified by push/pop instructions and by function calls and returns. It is essential for maintaining the stack's state and ensuring that function calls and local variable allocations are correctly managed. 
+</details>
+
+<details><summary>EBP (Extended Base Pointer)</summary>
+Role: The EBP register is often used as a base pointer for the stack frame of a function. While not strictly necessary for all function calls, it's commonly used in many calling conventions to reference function parameters and local variables in a consistent way.
+Usage: At the beginning of a function call, the current value of ESP (the stack pointer) is often copied into EBP to establish a fixed point of reference for accessing function parameters and locals. This allows the function to access its variables and parameters via a fixed offset from EBP, even as ESP moves due to push/pop operations or other modifications to the stack.</details>
+
+<details><summary>ECX (Extended Counter Register)</summary>
+Role: The ECX register is traditionally used as a loop counter in iterative operations, but it can serve various purposes depending on the context. In certain calling conventions, it is also used to pass function arguments.
+Usage: Its role as a counter comes from instructions like loop, which decrements ECX and jumps to a specified label if ECX is not zero. Beyond looping, ECX can be used as a general-purpose register for arithmetic, data manipulation, and as part of function calling conventions where registers are used to pass arguments.</details>
+
+
