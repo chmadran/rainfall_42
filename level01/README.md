@@ -85,4 +85,13 @@ Ok actually the perfect offset is 76 as shown here cest incomprehensible lol
 
 ![image](https://github.com/chmadran/rainfall_42/assets/113340699/5de3c128-5fa9-4ecc-a72c-d54731cf15cf)
 
-  
+  ----------------------------------------------------------------------------
+
+The - used with cat, it waits for additional input from stdin (i.e., your keyboard input). Whatever you type after executing the command will be appended to the content of payload. To signal the end of your input from stdin, you would press Ctrl+D (EOF in Unix/Linux environments) if you're manually entering additional data. If you don't input anything and immediately press Ctrl+D, it just means no additional data is appended to the content of payload.
+
+![image](https://github.com/chmadran/rainfall_42/assets/113340699/b9f175f4-f4d5-44e6-bcf9-0550543f79aa)
+
+
+  ```53a4a712787f40ec66c3c26c1f4b164dcad5552b038bb0addd69bf5bf6fa8e77```
+
+  You only needed to leave `stdin` open.....
