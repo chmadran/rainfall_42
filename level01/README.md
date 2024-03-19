@@ -81,5 +81,8 @@ Add the position of "H" in your alphabet sequence, which starts immediately afte
 
 So, the offset where "HIJK" starts, and thus the point at which the eip was overwritten, is 65 (number of "A"s) + 7 (position of "H" in the sequence after the "A"s) = **72.**
 
+Ok actually the perfect offset is 76 as shown here cest incomprehensible lol 
+
+![Uploading image.png…]()
 
   
