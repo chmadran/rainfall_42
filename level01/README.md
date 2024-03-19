@@ -83,6 +83,6 @@ So, the offset where "HIJK" starts, and thus the point at which the eip was over
 
 Ok actually the perfect offset is 76 as shown here cest incomprehensible lol 
 
-![Uploading image.png…]()
+![image](https://github.com/chmadran/rainfall_42/assets/113340699/5de3c128-5fa9-4ecc-a72c-d54731cf15cf)
 
   
